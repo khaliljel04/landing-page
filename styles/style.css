@@ -33,20 +33,77 @@ body {
   justify-content: space-between;
   padding-top: 80px;
   padding-bottom: 80px;
+}
 
+.hero-text {
+  flex: 0 1 600px;
 }
 
 .welcome-image {
-  width: 500px;
-  height: auto;
+  width: 450px;
   margin-left: 36px;
   align-self: flex-start;
+}
+
+.content {
+  padding: 20px 240px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+  gap: 40px;
+}
+
+.info {
+  text-align: center;
+  width: 240px;
+}
+
+.info > img {
+  width: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 240px;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  flex-basis: 1200px;
+}
+
+.quote-text {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote-sayer {
+  text-align: end;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 1000;
   color: #F9FAF8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
 }
 
 ul {
@@ -58,7 +115,6 @@ ul {
 }
 
 a {
-
   text-decoration-line: none;
 }
 
